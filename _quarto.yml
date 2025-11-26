@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Clustering and Classification: Bank Transactions Dataset"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home (Project Overview)
+      - text: Analysis Pages
+        menu:
+          - href: "[Clustering] Submission Akhir BMLP_Cinta Chantika Lestari.ipynb"
+            text: Cluster Analysis (Unsupervised)
+          - href: "[Klasifikasi] Submission Akhir BMLP_Cinta Chantika Lestari.ipynb"
+            text: Classification Model (Supervised)
+
+format:
+  html:
+    theme: cosmo

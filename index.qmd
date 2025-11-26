@@ -1,0 +1,28 @@
+---
+title: "Clustering and Classification: Bank Transactions Dataset"
+format: html
+---
+# 🏦 Bank Transaction Analysis: Segmentation and Prediction
+
+## Project Goal
+This project explores a banking dataset to **segment customers** based on their transactions and then develops a **predictive model** for a key business outcome, such as high-value transactions or potential churn.
+
+
+
+## The Data Source
+* **Dataset:** `https://www.kaggle.com/datasets/valakhorasani/bank-transaction-dataset-for-fraud-detection`
+* **Description:** Contains over 2000 rows of anonymized customer transactions, including features like amount, transaction type, and time.
+* **Preprocessing:** We created a feature engineering pipeline to convert raw transactions into behavioral features (e.g., average weekly spend, reliance on ATM).
+
+## Analysis Roadmap (The Connection)
+
+### 1. 🔍 Cluster Analysis (Unsupervised)
+* **Notebook:** **Cluster Analysis (Unsupervised)** (See the navigation bar)
+* **Insight:** K-Means clustering identified **three distinct customer segments** (e.g., "Wealthy Seniors," "Young Regulars," "High-Risk Customers"). These segments were added to the dataset as a new feature.
+
+### 2. 🎯 Classification Model (Supervised)
+* **Notebook:** **Classification Model (Supervised)** (See the navigation bar)
+* **Goal:** Predict the **high-value transaction flag** using transaction features and the new cluster labels.
+* **Result:** The Random Forest Classifier achieved an **F1-Score of 0.88**, demonstrating that the cluster feature significantly improved prediction accuracy.
+
+👈 **Use the 'Analysis Pages' menu to dive into the full code and detailed visualizations!**
